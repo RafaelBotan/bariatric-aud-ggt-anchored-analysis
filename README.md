@@ -9,7 +9,7 @@ Reproducible analytical pipeline for the manuscript:
 > Submitted to *Obesity Surgery* (Springer), 2026.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![DOI](https://img.shields.io/badge/OSF-DOI%20pending-blue)](https://osf.io/)
+[![DOI](https://img.shields.io/badge/OSF-10.17605%2FOSF.IO%2F27PSQ-blue)](https://osf.io/)
 
 ---
 
@@ -71,7 +71,7 @@ This repository contains the full analytical pipeline (Python 3.13) used to:
 ### Quick start
 
 ```bash
-git clone https://github.com/<username>/bariatric-aud-ggt-anchored-analysis.git
+git clone https://github.com/RafaelBotan/bariatric-aud-ggt-anchored-analysis.git
 cd bariatric-aud-ggt-anchored-analysis
 pip install -r requirements.txt
 
@@ -104,7 +104,7 @@ If you use this code or data, please cite:
 
 > Arruda SLM, Botan RN, Galvão RO, Gonçalves MF, Melendez Araújo MS, Clark DSC, Sousa JB. Clinical and psychometric predictors of post-bariatric alcohol use disorder, with anchored gamma-glutamyl transferase as a concurrent objective marker: a cross-sectional study. *Obesity Surgery* (under review). 2026.
 
-OSF DOI: pending (will be filled prior to publication).
+**OSF DOI:** [10.17605/OSF.IO/27PSQ](https://doi.org/10.17605/OSF.IO/27PSQ)
 
 ## Contact
 
