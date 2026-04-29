@@ -1,0 +1,61 @@
+cff-version: 1.2.0
+title: "bariatric-aud-ggt-anchored-analysis"
+message: "If you use this code or dataset, please cite the manuscript and this repository."
+type: software
+authors:
+  - family-names: "de Matos Arruda"
+    given-names: "Sergio Lincoln"
+    affiliation: "School of Medicine, Universidade de Brasília, Brazil"
+  - family-names: "de Negreiros Botan"
+    given-names: "Rafael"
+    orcid: "https://orcid.org/0000-0002-7290-5824"
+    affiliation: "Department of Oncology, Universidade de Brasília, Brazil"
+  - family-names: "Oliveira Galvão"
+    given-names: "Rafael"
+    orcid: "https://orcid.org/0000-0001-8913-7625"
+    affiliation: "Clínica Barinject, Brasília, Brazil"
+  - family-names: "Fiuza Gonçalves"
+    given-names: "Mariana"
+    orcid: "https://orcid.org/0000-0003-1418-8211"
+    affiliation: "HRAN/SES-DF and ESCS, Brasília, Brazil"
+  - family-names: "Silva Melendez Araújo"
+    given-names: "Mariana"
+    orcid: "https://orcid.org/0000-0002-6798-6818"
+    affiliation: "HRAN/SES-DF and Universidade de Brasília, Brazil"
+  - family-names: "Sampaio Carvalho Clark"
+    given-names: "Daniela"
+    orcid: "https://orcid.org/0000-0002-6796-7123"
+    affiliation: "Universidade de Brasília, Brazil"
+  - family-names: "Batista de Sousa"
+    given-names: "João"
+    affiliation: "Faculty of Medicine, Universidade de Brasília, Brazil"
+preferred-citation:
+  type: article
+  title: "Clinical and psychometric predictors of post-bariatric alcohol use disorder, with anchored gamma-glutamyl transferase as a concurrent objective marker: a cross-sectional study"
+  authors:
+    - family-names: "de Matos Arruda"
+      given-names: "Sergio Lincoln"
+    - family-names: "de Negreiros Botan"
+      given-names: "Rafael"
+    - family-names: "Oliveira Galvão"
+      given-names: "Rafael"
+    - family-names: "Fiuza Gonçalves"
+      given-names: "Mariana"
+    - family-names: "Silva Melendez Araújo"
+      given-names: "Mariana"
+    - family-names: "Sampaio Carvalho Clark"
+      given-names: "Daniela"
+    - family-names: "Batista de Sousa"
+      given-names: "João"
+  journal: "Obesity Surgery"
+  year: 2026
+  status: "submitted"
+keywords:
+  - bariatric surgery
+  - alcohol use disorder
+  - AUDIT
+  - gamma-glutamyl transferase
+  - postoperative surveillance
+  - risk stratification
+license: MIT
+repository-code: "https://github.com/<username>/bariatric-aud-ggt-anchored-analysis"
