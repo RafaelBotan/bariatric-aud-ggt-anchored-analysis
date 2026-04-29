@@ -101,7 +101,7 @@ print(f'  Não-linkados restantes: {len(miss_t1)}')
 # === Tier 2: fuzzy ===
 # Estratégia em duas passadas:
 #   2a) token_set_ratio threshold 90 — robusto a sobrenomes adicionais
-#       (ex.: "Eduardo Miranda" vs "Eduardo Miranda Lopes" → 100)
+#       (ex.: short name vs full name with extra surname → token_set 100)
 #   2b) token_sort_ratio threshold 88 — fallback para variações de ordem
 # Em todos os matches, exigir que primeiro+último token batam OU >=2 tokens
 # em comum, para evitar "Maria Aparecida X" colando com "Maria Aparecida Y"
@@ -164,10 +164,13 @@ print(f'  Match Tier 2 (≥88%): {len(match_t2)}')
 print(f'  Não-linkados após Tier 2: {len(miss_t2)}')
 
 # === Tier 3: resgate manual ===
-# Ivania S. Mundim ↔ ivania stroligo mundim (sort=81): mesmo prenome+sobrenome,
-# inicial S = Stroligo. Confirmado match.
+# Manual rescue for residual cases where the abbreviated middle initial
+# matches an unambiguous full middle name in the master cohort and the
+# token_sort score remained ≥80 with first+last name identical.
+# (Names redacted for de-identification in the public release.)
 manual_rescue = {
-    'Ivania S. Mundim': 'ivania stroligo mundim',
+    # Format: 'questionnaire spreadsheet entry': 'master cohort entry'
+    # (1 entry rescued in this study; redacted in public release)
 }
 manual_rescued = []
 for row in list(miss_t2):

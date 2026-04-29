@@ -342,11 +342,11 @@ Visitas e duração de seguimento por status AUDIT:
   Range LOO: [0.0044, 0.0321]
   Top 5 sujeitos influentes (|delta|):
                                       n  coef_loo     delta    p_loo
-cinthya de avila oliveira trojan repiso  0.032085  0.016056 0.073579
-        alyne santos medeiros benevides  0.004407 -0.011622 0.816708
-             carla fernandes e oliveira  0.011151 -0.004878 0.559173
-                    janete brito macedo  0.011218 -0.004811 0.582479
-                            su yun yang  0.011889 -0.004141 0.542183
+P015  0.032085  0.016056 0.073579
+        P003  0.004407 -0.011622 0.816708
+             P012  0.011151 -0.004878 0.559173
+                    P039  0.011218 -0.004811 0.582479
+                            P089  0.011889 -0.004141 0.542183
 
   Modelo sem top-3 influentes: coef=0.0154, p=0.4256
 
