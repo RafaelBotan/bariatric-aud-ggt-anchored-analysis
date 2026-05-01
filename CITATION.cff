@@ -5,6 +5,7 @@ type: software
 authors:
   - family-names: "de Matos Arruda"
     given-names: "Sergio Lincoln"
+    orcid: "https://orcid.org/0000-0002-4924-7819"
     affiliation: "School of Medicine, Universidade de Brasília, Brazil"
   - family-names: "de Negreiros Botan"
     given-names: "Rafael"
@@ -28,6 +29,7 @@ authors:
     affiliation: "Universidade de Brasília, Brazil"
   - family-names: "Batista de Sousa"
     given-names: "João"
+    orcid: "https://orcid.org/0000-0001-6314-9505"
     affiliation: "Faculty of Medicine, Universidade de Brasília, Brazil"
 preferred-citation:
   type: article
